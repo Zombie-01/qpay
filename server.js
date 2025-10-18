@@ -17,9 +17,9 @@ app.use(
 app.use(bodyParser.json());
 
 const QPAY_API_URL = "https://merchant.qpay.mn/v2";
-const QPAY_MERCHANT_ID = TUMEN_DUGUI;
-const QPAY_SECRET_KEY = FGUpC64V;
-const QPAY_INVOICE_CODE = TUMEN_DUGUI_INVOICE;
+const QPAY_MERCHANT_ID = "TUMEN_DUGUI";
+const QPAY_SECRET_KEY = "FGUpC64V";
+const QPAY_INVOICE_CODE = "TUMEN_DUGUI_INVOICE";
 
 // ---------------------------
 // 1. Get QPay Token
