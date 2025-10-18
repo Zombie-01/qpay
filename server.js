@@ -61,7 +61,7 @@ app.post("/api/qpay/create", async (req, res) => {
         invoice_receiver_code: invoiceReceiverCode,
         invoice_description: "Payment invoice",
         amount,
-        callback_url: process.env.NEXTAUTH_URL + "/api/qpay/callback",
+        callback_url: "https://www.tumendugui.autos" + "/api/qpay/callback",
         extra_data: { items },
       }),
     });
